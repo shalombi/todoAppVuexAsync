@@ -1,0 +1,233 @@
+body {
+    background-color: rgb(202, 202, 202);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Helpers */
+.overline {
+    text-decoration: line-through;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mark {
+    background-color: rgb(255, 240, 36);
+    /* padding: 4px;
+    border-radius: 4px;
+    max-width: 90px; */
+}
+
+.todo-txt {
+    padding: 4px;
+    border-radius: 4px;
+    max-width: 90px;
+    /* text-align: center; */
+}
+
+/* header */
+
+router-link {
+    border-bottom: none;
+}
+
+header {
+    height: 18vh;
+    background-color: rgb(42, 43, 43);
+    /* margin: unset; */
+}
+
+.main-title {
+    padding: 10px;
+    color: oldlace;
+}
+
+.main-title span {
+    color: rgb(55, 255, 0);
+    font-size: 38px;
+}
+
+.router-link {
+
+    color: rgb(247, 247, 246);
+    font-size: 20px;
+    margin: 14px;
+    /* margin-bottom: 190px; */
+    text-decoration: none;
+}
+
+.router-link span {
+    text-decoration: none;
+
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav span {
+    color: rgb(247, 247, 246);
+}
+
+/*  content */
+.todo-app,
+.todo-details,
+.home {
+    /* height: 87vh; */
+    background-color: rgb(202, 202, 202);
+    padding: 30px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    /* margin-left: 180px; */
+}
+
+/* filter */
+
+.todo-filter-container {
+    /* background: chartreuse; */
+    display: flex;
+    gap: 20px;
+    /* padding: 20px; */
+}
+
+.input-filter,
+.todo-filter-container select {
+    background-color: rgb(21, 21, 21);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(241, 241, 241);
+    /* min-width: 90px; */
+}
+
+.todo-filter-container select {
+    max-width: 70px;
+}
+
+/* list */
+/* .todo-list {
+    /* border-radius: 8px; */
+/* } */
+
+.container-add {
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(18, 18, 18);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+.container-add .add {
+    color: rgb(251, 251, 251);
+    /* min-height: 60px; */
+    text-decoration: none;
+}
+
+ul {
+    /* text-decoration: none; */
+    list-style: none;
+    /* margin: none; */
+    padding: 0;
+}
+
+ul li {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    background-color: rgb(146, 143, 143);
+    border-radius: 10px;
+    margin-top: 24px;
+    /* height: 9vh; */
+}
+
+
+.remove,
+.details-task-btn,
+.edit-task-btn {
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 0
+}
+
+/* preview */
+.prev-todo-txt {
+    font-size: 20px;
+}
+
+.todo-preview {
+    margin-left: 14px;
+}
+
+/* Details */
+.back-to-app span {
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+    border: none;
+}
+
+/* footer */
+
+footer {
+    /* position: relative; */
+    height: 12vh;
+    background-color: rgb(130, 130, 128);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* home */
+
+.home span {
+    /* margin-left: 22px; */
+    position: absolute;
+    left: 40px;
+    top: 220px;
+}
+
+/* 
+.all-rights {
+    position: absolute;
+    top: 21%;
+    left: 23%;
+    /* margin-left: 20px; */
+/* margin-top: 22px; */
+
+
+
+.alert {
+    color:white;
+    padding: 10px;
+    font-size: 1.4em;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: grey;
+}
+
+
+.alert-success {
+    background-color: rgb(15, 122, 15);
+}
+.alert-danger {
+    background-color: rgb(122, 11, 11);
+}
